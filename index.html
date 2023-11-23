@@ -8,11 +8,19 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
-    <form action="#" class="form">
+    <fdiv class="form">
         <input type="email" name="email" placeholder="Digite seu email" id="email">
         <input type="password" placeholder="Digite sua senha" id="senha">
-        <input type="submit" id="submit">
-    </form>
+
+        <div class="verificacaoOtp">
+            <input type="text" id="input_otp" placeholder="Informe o código">
+            <button class="btn" id="btn_otp">Verificar</button>
+        </div>
+
+        <button onclick="sendOTP()" class="btn">Enviar OTP</button>
+    </div>
+
+
 
     <script src="script.js"></script>
 </body>

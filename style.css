@@ -25,3 +25,22 @@ input{
     box-shadow: 1px 1px 5px black;
 }
 
+.verificacaoOtp{
+    display: none;
+    margin-top: 20px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 10px;
+}
+
+
+
