@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
+
 <body>
-    <fdiv class="form">
-        <input type="email" name="email" placeholder="Digite seu email" id="email">
-        <input type="password" placeholder="Digite sua senha" id="senha">
+    
+    <form class="form">
+        <h2>Formulário</h2>
+        <input type="email" placeholder="Digite seu email" id="email" required>
+        <input type="password" placeholder="Digite sua senha" id="senha" required>
 
         <div class="verificacaoOtp">
             <input type="text" id="input_otp" placeholder="Informe o código">
@@ -18,10 +22,11 @@
         </div>
 
         <button onclick="sendOTP()" class="btn">Enviar OTP</button>
-    </div>
+    </form>
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>

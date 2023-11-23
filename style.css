@@ -1,6 +1,4 @@
 body{
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 
@@ -8,7 +6,7 @@ body{
     width: 20%;
     margin: auto;
     padding: 1rem;
-    background-color: bisque;
+    background-color: rgba(206, 206, 206, 0.59);
     border-radius: 50px;
     margin-top: 20%;
     display: flex;
